@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import products from "../data/products.json";
 import products2 from "../data/products2.json";
 import Navbar from "../components/Navbar";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 import "./Collections.css";
 
 const allProducts = [

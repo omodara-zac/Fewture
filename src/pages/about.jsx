@@ -1,6 +1,6 @@
 import "./about.css";
 import Navbar from "../components/Navbar";
-import Footer from "../components/footer";
+import Footer from "../components/Footer.jsx";
 
 export default function About() {
     return (

@@ -1,7 +1,7 @@
 
 import React from "react";
 import LegalPage from "../components/LegalPage";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 
 const Terms = () => {
   const sections = [

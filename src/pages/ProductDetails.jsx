@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import products from "../data/products.json";
 import "./ProductDetails.css";
 import Navbar from "../components/Navbar";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 
 const ProductDetails = () => {
   const { id } = useParams();
