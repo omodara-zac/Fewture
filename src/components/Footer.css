@@ -1,0 +1,130 @@
+
+.footer {
+  margin-top: 20px;
+  width: 100%;
+  background: #0a0a0a;
+  color: white;
+  padding: 70px 8% 25px;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1.3fr 1fr;
+  gap: 40px;
+}
+
+.footer-brand h2 {
+  font-family: "Audiowide", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.footer-brand p {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.85rem;
+  color: #999;
+}
+
+.footer-links,
+.footer-socials {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-links h3,
+.footer-socials h3 {
+  font-family: "Audiowide", sans-serif;
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.75rem;
+  color: #999;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 1.4rem;
+  transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #999;
+  transform: translateY(-4px);
+}
+
+.footer-bottom {
+  grid-column: 1 / -1;
+  border-top: 1px solid #333;
+  margin-top: 40px;
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-bottom p {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.7rem;
+  color: #777;
+  letter-spacing: 1px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+  .footer {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 550px) {
+  .footer {
+    grid-template-columns: 1fr 1fr;
+    padding: 60px 6% 25px;
+    gap: 35px 20px;
+  }
+
+  .footer-brand {
+    grid-column: 1 / -1;
+  }
+
+  .footer-brand h2 {
+    font-size: 1.7rem;
+  }
+
+  .footer-links h3,
+  .footer-socials h3 {
+    font-size: 0.75rem;
+  }
+
+  .footer-links a {
+    font-size: 0.7rem;
+  }
+
+  .footer-socials {
+    grid-column: 1 / -1;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .footer-bottom p {
+    font-size: 0.65rem;
+  }
+}

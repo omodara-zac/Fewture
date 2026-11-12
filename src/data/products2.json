@@ -1,0 +1,128 @@
+
+[
+  {
+    "id": 1,
+    "name": "FEWTURE Beanie",
+    "price": 15000,
+    "description": "A classic black and white beanie for everyday style.",
+    "category": "Beanie",
+    "cardImages": [
+      "/images/collection/beanie2.jpeg",
+      "/images/collection/beanie.jpeg"
+    ],
+    "images": [
+      "/images/collection/beanie2.jpeg",
+      "/images/collection/beanie.jpeg"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Zipper Hoodie",
+    "price": 30000,
+    "description": "A heavyweight hoodie with a relaxed, comfortable fit.",
+    "category": "Hoodie",
+    "cardImages": [
+      "/images/collection/hoodie.jpeg",
+      "/images/collection/hoodie2.jpeg"
+    ],
+    "images": [
+      "/images/collection/hoodie.jpeg",
+      "/images/collection/hoodie2.jpeg"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Healed Heart",
+    "price": 20000,
+    "description": "A statement graphic tee with a bold streetwear feel.",
+    "category": "T-Shirts",
+    "cardImages": [
+      "/images/collection/healed.jpeg",
+      "/images/collection/healed 4.jpeg"
+    ],
+    "images": [
+      "/images/collection/healed.jpeg",
+      "/images/collection/healed3.jpeg",
+      "/images/collection/healed 4.jpeg"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Nature Tee",
+    "price": 20000,
+    "description": "A graphic tee inspired by nature and street culture.",
+    "category": "T-shirt",
+    "cardImages": [
+      "/images/collection/skull2.jpeg",
+      "/images/collection/skull.jpeg"
+    ],
+    "images": [
+      "/images/collection/skull2.jpeg",
+      "/images/collection/skull.jpeg"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Sultry Mini Skirt",
+    "price": 25000,
+    "description": "A sleek mini skirt made for effortless styling.",
+    "category": "Skirt",
+    "cardImages": [
+      "/images/collection/mini2.jpeg",
+      "/images/collection/mini.jpeg"
+    ],
+    "images": [
+      "/images/collection/mini2.jpeg",
+      "/images/collection/mini.jpeg"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Female Ringer Tee",
+    "price": 28000,
+    "description": "A fitted graphic tee with a classic ringer finish.",
+    "category": "Female T-shirt",
+    "cardImages": [
+      "/images/collection/ringer2.jpeg",
+      "/images/collection/ringer.jpeg"
+    ],
+    "images": [
+      "/images/collection/ringer2.jpeg",
+      "/images/collection/ringer.jpeg"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Patriot Tee",
+    "price": 30000,
+    "description": "A bold graphic tee with a distinctive streetwear look.",
+    "category": "T-Shirts",
+    "cardImages": [
+      "/images/collection/camo prints.jpeg",
+      "/images/collection/patriot.jpeg"
+    ],
+    "images": [
+      "/images/collection/camo prints.jpeg",
+      "/images/collection/patriot.jpeg"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Ripped Sweatpant",
+    "price": 28000,
+    "description": "Relaxed-fit sweatpants with edgy distressed detailing.",
+    "category": "Sweatpant",
+    "cardImages": [
+      "/images/collection/trouser.jpeg",
+      "/images/collection/trouser2.jpeg",
+      "/images/collection/trouser3.jpeg",
+      "/images/collection/trouser4.jpeg"
+    ],
+    "images": [
+      "/images/collection/trouser.jpeg",
+      "/images/collection/trouser2.jpeg",
+      "/images/collection/trouser3.jpeg",
+      "/images/collection/trouser4.jpeg"
+    ]
+  }
+]

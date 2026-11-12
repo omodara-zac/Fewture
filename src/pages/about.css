@@ -1,0 +1,90 @@
+.firstpart,
+.secondpart {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    background: white;
+    color: #0a0a0a;
+    padding: 0;
+    gap: 0;
+}
+
+/* Image containers */
+.firstpart > div:first-child,
+.secondpart > div:first-child {
+    width: 50%;
+    height: 100%;
+    flex: none;
+    overflow: hidden;
+}
+
+.firstpart img,
+.secondpart img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Text containers */
+.firstpart > div:last-child,
+.secondpart > div:last-child {
+    width: 50%;
+    height: 100%;
+    padding: 60px 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.firstpart h1 {
+    font-family: "Audiowide", sans-serif;
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+}
+
+.firstpart p,
+.secondpart p {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1rem;
+    line-height: 1.9;
+    color: #090000;
+}
+
+/* Reverse second section */
+.secondpart {
+    flex-direction: row-reverse;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .firstpart,
+    .secondpart {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .firstpart > div:first-child,
+    .secondpart > div:first-child {
+        width: 100%;
+        height: 350px;
+    }
+
+    .firstpart > div:last-child,
+    .secondpart > div:last-child {
+        width: 100%;
+        padding: 50px 6%;
+    }
+
+    .firstpart h1 {
+        font-size: 2rem;
+    }
+
+    .firstpart p,
+    .secondpart p {
+        font-size: 0.9rem;
+        line-height: 1.8;
+    }
+}

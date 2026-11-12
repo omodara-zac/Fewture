@@ -1,0 +1,173 @@
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 60px;
+}
+
+.hero-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 0;
+}
+
+/* Dark gradient overlay */
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+background: linear-gradient(
+  to top,
+  rgb(0, 0, 0),
+  transparent
+);
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Hero text */
+.hero-content {
+  position: relative;
+  z-index: 2;
+  color: white;
+  max-width: 550px;
+  top: 20%;
+  left: 30%;
+  /* transform: translateY(-30%); */
+
+  }
+
+.hero-content h1 {
+  font-family: "Audiowide", sans-serif;
+  font-size: 80px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  /* color: rgba(225, 30, 30, 0.858); */
+}
+
+.hero-content p {
+  font-size: 25px;
+  padding-left: 20%;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.hero-content a {
+  /* font-family: "Audiowide", sans-serif; */
+  padding: 14px 30px;
+  border: none;
+  background: white;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 35%;
+  /* top: 5px; */
+}
+
+/* TABLET */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hero {
+    height: 90vh;
+    min-height: 650px;
+    padding: 40px;
+  }
+
+  .hero-content {
+    max-width: 500px;
+    top: 10%;
+    left: 17%;
+  }
+
+  .hero-content h1 {
+    font-size: 80px;
+  }
+
+  .hero-content p {
+    font-size: 30px;
+    padding-left: 15%;
+  }
+
+  .hero-content a {
+    font-size: 25px;
+    margin-left: 35%;
+    padding: 20px 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 85vh;
+    min-height: 55vh;
+    padding: 25px;
+  }
+
+  .hero-content {
+  position: relative;
+  z-index: 2;
+  color: white;
+  max-width: 550px;
+  top: 10%;
+  left: 9%;
+  /* transform: translateY(-30%); */
+
+  }
+
+  .hero-content h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+  }
+
+    .hero-content p {
+    font-size: 17px;
+    margin-left: -8%;
+  }
+
+   .hero-content a {
+    margin-left: 25%;
+  }
+}
+
+/* SMARTWATCH */
+@media (max-width: 320px) {
+  .hero {
+    height: 75vh;
+    min-height: 450px;
+    padding: 15px;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    top: 5%;
+    left: 0;
+  }
+
+  .hero-content h1 {
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+
+  .hero-content p {
+    font-size: 13px;
+    padding-left: 5%;
+    margin-left: 0;
+  }
+
+  .hero-content a {
+    font-size: 12px;
+    padding: 10px 18px;
+    margin-left: 20%;
+    margin-top: 15px;
+  }
+}

@@ -1,0 +1,152 @@
+
+.products {
+  width: 100%;
+  padding: 80px 5%;
+}
+
+.products .arrival-label {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12px;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+.products h1 {
+  font-family: "Audiowide", sans-serif;
+  font-size: 32px;
+  margin-bottom: 35px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product-card {
+  display: block;
+  min-width: 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+.card-images {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  background: #f2f2f2;
+}
+
+.card-images img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.4s ease;
+}
+
+.first-image {
+  opacity: 1;
+}
+
+.second-image {
+  opacity: 0;
+}
+
+.product-card:hover .first-image {
+  opacity: 0;
+}
+
+.product-card:hover .second-image {
+  opacity: 1;
+}
+
+.card-info {
+  padding-top: 12px;
+}
+
+.card-info h3 {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 0 6px;
+}
+
+.card-info p {
+  font-size: 13px;
+  margin: 0;
+}
+
+.product-card {
+  display: block;
+  min-width: 0;
+  color: inherit;
+  text-decoration: none;
+  padding: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.045);
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.product-card:hover {
+  border-color: rgba(0, 0, 0, 0.09);
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.09);
+}
+
+/* TABLET */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .products {
+    padding: 65px 4%;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px 18px;
+  }
+
+  .card-info h3 {
+    font-size: 13px;
+  }
+
+  .card-info p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .products {
+    padding: 55px 4%;
+  }
+
+  .products h1 {
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px 12px;
+  }
+
+  .card-info h3 {
+    font-size: 12px;
+  }
+
+  .card-info p {
+    font-size: 12px;
+  }
+  .product-card {
+    padding: 0;
+    border: none;
+    box-shadow: none;
+  }
+
+  .product-card:hover {
+    border: none;
+    box-shadow: none;
+  }
+
+}

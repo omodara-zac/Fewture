@@ -1,0 +1,176 @@
+
+.legal-page {
+  width: 100%;
+  min-height: 100vh;
+  background: #fff;
+  color: #000;
+  padding: 120px 8%;
+}
+
+.legal-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.legal-label {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+  color: #777;
+  margin-bottom: 25px;
+}
+
+.legal-container h1 {
+  font-family: "Audiowide", sans-serif;
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  line-height: 1.2;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.legal-intro {
+  max-width: 700px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 1rem;
+  line-height: 1.9;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+.legal-updated {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  color: #777;
+  margin-bottom: 70px;
+}
+
+.legal-section {
+  padding: 30px 0;
+  border-top: 1px solid #ddd;
+}
+
+.legal-section h2 {
+  font-family: "Audiowide", sans-serif;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.legal-section p {
+  max-width: 800px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.9rem;
+  line-height: 1.9;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.legal-link {
+  display: inline-block;
+  margin-top: 15px;
+  color: #000;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.85rem;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+  padding-bottom: 6px;
+  transition: 0.3s ease;
+}
+
+.legal-link:hover {
+  color: #777;
+  border-color: #777;
+}
+
+.legal-bottom {
+  border-top: 1px solid #ddd;
+  margin-top: 40px;
+  padding-top: 30px;
+}
+
+.legal-bottom p {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  color: #777;
+}
+
+@media (max-width: 768px) {
+  .legal-page {
+    padding: 90px 6%;
+  }
+
+  .legal-container h1 {
+    font-size: 2.3rem;
+  }
+
+  .legal-intro {
+    font-size: 0.9rem;
+  }
+
+  .legal-updated {
+    margin-bottom: 50px;
+  }
+
+  .legal-section {
+    padding: 25px 0;
+  }
+
+  .legal-section h2 {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .legal-section p {
+    font-size: 0.85rem;
+    line-height: 1.8;
+  }
+}
+
+/* LIGHT MODE */
+/* .legal-page {
+  background: #fff;
+  color: #000;
+}
+
+.legal-container h1,
+.legal-section h2 {
+  color: #000;
+}
+
+.legal-intro,
+.legal-section p {
+  color: #444;
+}
+
+.legal-section {
+  border-color: #ddd;
+} */
+
+/* DARK MODE */
+/* @media (prefers-color-scheme: dark) {
+  .legal-page {
+    background: #0a0a0a;
+    color: #fff;
+  }
+
+  .legal-container h1,
+  .legal-section h2 {
+    color: #fff;
+  }
+
+  .legal-intro,
+  .legal-section p {
+    color: #aaa;
+  }
+
+  .legal-section {
+    border-color: #292929;
+  }
+
+  .legal-link {
+    color: #fff;
+    border-color: #fff;
+  }
+} */

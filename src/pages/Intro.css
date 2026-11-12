@@ -1,0 +1,42 @@
+.intro-screen {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+  background: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+.intro-screen img {
+  display: block;
+  width: 200px;
+  height: auto;
+  max-width: 30vw;
+  object-fit: contain;
+  margin: 0;
+}
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .intro-screen img {
+    width: 105px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .intro-screen {
+    height: 100dvh;
+  }
+
+  .intro-screen img {
+    width: 170px;
+    /* max-width: 25vw; */
+  }
+}

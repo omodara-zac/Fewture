@@ -1,0 +1,54 @@
+.description {
+    width: 100%;
+    padding: 100px 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.description-div h2 {
+    font-family: "Audiowide", sans-serif;
+    font-size: 2.5rem;
+    flex: 1;
+    margin: 0;
+    margin-top: 60px;
+}
+
+.description-div p {
+     font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    flex: 1;
+    max-width: 550px;
+    margin: 0;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .description {
+        padding: 70px 6%;
+    }
+
+    .description-div {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .description-div h2 {
+        font-size: 1.5rem;
+        margin-top: -20px;
+    }
+
+    .description-div p {
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+}

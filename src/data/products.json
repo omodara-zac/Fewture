@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "A.N.E.P Tee",
+    "price": 20000,
+    "description": "An oversized graphic tee with a bold streetwear look.",
+    "category": "T-Shirts",
+    "cardImages": [
+      "/images/arrival/embrace.jpeg",
+      "/images/arrival/embrace2.jpeg"
+    ],
+    "images": [
+      "/images/arrival/embrace.jpeg",
+      "/images/arrival/embrace2.jpeg",
+      "/images/arrival/embrace7.jpeg",
+      "/images/arrival/embrace6.jpeg",
+      "/images/arrival/embrace5.jpeg",
+      "/images/arrival/embrace3.jpeg"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Comrade rippped tee",
+    "price": 40000,
+    "description": "A statement graphic tee with a distinctive edge.",
+    "category": "T-Shirts",
+    "cardImages": [
+      "/images/arrival/comrade.jpeg",
+      "/images/arrival/comrade2.jpeg"
+    ],
+    "images": [
+      "/images/arrival/comrade.jpeg",
+      "/images/arrival/comrade2.jpeg"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Distressed Henley tee",
+    "price": 40000,
+    "description": "A distressed tee with a relaxed streetwear fit.",
+    "category": "T-Shirts",
+    "cardImages": [
+      "/images/arrival/henley.jpeg",
+      "/images/arrival/henley2.jpeg"
+    ],
+    "images": [
+      "/images/arrival/henley.jpeg",
+      "/images/arrival/henley2.jpeg"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Fewture Female polo",
+    "price": 20000,
+    "description": "A stylish polo designed for everyday wear.",
+    "category": "Polo",
+    "cardImages": [
+      "/images/arrival/female polo2.jpeg",
+      "/images/arrival/female polo.jpeg"
+    ],
+    "images": [
+      "/images/arrival/female polo2.jpeg",
+      "/images/arrival/female polo.jpeg"
+    ]
+  }
+]

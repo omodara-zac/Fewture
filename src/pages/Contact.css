@@ -1,0 +1,123 @@
+.contact-page {
+  width: 100%;
+  min-height: 100vh;
+  background: white;
+  color: #0a0a0a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 8%;
+}
+
+.contact-content {
+  width: 100%;
+  max-width: 1100px;
+}
+
+.contact-heading {
+  max-width: 750px;
+  margin-bottom: 70px;
+}
+
+.contact-label {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+  color: #888;
+  margin-bottom: 25px;
+}
+
+.contact-heading h1 {
+  font-family: "Audiowide", sans-serif;
+  font-size: clamp(2.5rem, 7vw, 5.5rem);
+  margin-bottom: 25px;
+}
+
+.contact-description {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #000000;
+  max-width: 550px;
+}
+
+.social-links {
+  width: 100%;
+  border-top: 1px solid #010000;
+}
+
+.social-link {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding: 30px 10px;
+  border-bottom: 1px solid #00000017;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  transition: 0.3s ease;
+}
+
+.social-link svg {
+  font-size: 1.7rem;
+}
+
+.social-arrow {
+  margin-left: auto;
+  font-size: 1.5rem;
+  transition: 0.3s ease;
+}
+
+.social-link:hover {
+  color: #080000;
+  padding-left: 25px;
+}
+
+.social-link:hover .social-arrow {
+  transform: translate(5px, -5px);
+}
+
+.contact-footer {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  color: #000000;
+  margin-top: 60px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .contact-page {
+    padding: 100px 6%;
+  }
+
+  .contact-heading {
+    margin-bottom: 50px;
+  }
+
+  .contact-heading h1 {
+    font-size: 2.5rem;
+  }
+
+  .contact-description {
+    font-size: 0.9rem;
+  }
+
+  .social-link {
+    gap: 18px;
+    padding: 25px 5px;
+    font-size: 0.9rem;
+  }
+
+  .social-link svg {
+    font-size: 1.4rem;
+  }
+
+  .contact-footer {
+    font-size: 0.65rem;
+    line-height: 1.8;
+  }
+}
