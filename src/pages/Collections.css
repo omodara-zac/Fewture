@@ -208,4 +208,9 @@
   .collection-card-info p {
     font-size: 11px;
   }
+   .collections-search input {
+    font-size: 16px !important;
+    transform: none;
+    touch-action: manipulation;
+  }
 }
