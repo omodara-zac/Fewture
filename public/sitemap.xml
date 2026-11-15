@@ -1,0 +1,60 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Main pages -->
+  <url>
+    <loc>https://fewturefashion.store/home</loc>
+  </url>
+
+  <url>
+    <loc>https://fewturefashion.store/collections</loc>
+  </url>
+
+  <url>
+    <loc>https://fewturefashion.store/about</loc>
+  </url>
+
+  <url>
+    <loc>https://fewturefashion.store/contact</loc>
+  </url>
+
+  <!-- Product pages -->
+  <url>
+    <loc>https://fewturefashion.store/products2/1</loc>
+  </url>
+  <url>
+    <loc>https://fewturefashion.store/products2/2</loc>
+  </url>
+  <url>
+    <loc>https://fewturefashion.store/products2/3</loc>
+  </url>
+  <url>
+    <loc>https://fewturefashion.store/products2/4</loc>
+  </url>
+  <url>
+    <loc>https://fewturefashion.store/products2/5</loc>
+  </url>
+  <url>
+    <loc>https://fewturefashion.store/products2/6</loc>
+  </url>
+  <url>
+    <loc>https://fewturefashion.store/products2/7</loc>
+  </url>
+  <url>
+    <loc>https://fewturefashion.store/products2/8</loc>
+  </url>
+  <url>
+    <loc>https://fewturefashion.store/products2/9</loc>
+  </url>
+  <url>
+    <loc>https://fewturefashion.store/products2/10</loc>
+  </url>
+  <url>
+    <loc>https://fewturefashion.store/products2/11</loc>
+  </url>
+  <url>
+    <loc>https://fewturefashion.store/products2/12</loc>
+  </url>
+
+</urlset>
