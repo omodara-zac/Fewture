@@ -1,6 +1,6 @@
 
-import { useState } from "react";
-import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { Link, useSearchParams } from "react-router-dom";
 import products from "../data/products.json";
 import products2 from "../data/products2.json";
 import Navbar from "../components/Navbar";
@@ -22,7 +22,16 @@ const allProducts = [
 ];
 
 const Collections = () => {
-  const [searchTerm, setSearchTerm] = useState("");
+  const [searchParams] = useSearchParams();
+
+  const [searchTerm, setSearchTerm] = useState(
+    searchParams.get("search") || ""
+  );
+
+  // Read search query whenever the URL changes
+  useEffect(() => {
+    setSearchTerm(searchParams.get("search") || "");
+  }, [searchParams]);
 
   const filteredProducts = allProducts.filter((product) =>
     `${product.name} ${product.category}`
@@ -38,7 +47,6 @@ const Collections = () => {
         <div className="collections-heading">
           <p>FEWTURE / ALL PRODUCTS</p>
           <h1>OUR COLLECTIONS</h1>
-          {/* <span>{filteredProducts.length} PRODUCTS</span> */}
         </div>
 
         {/* SEARCH BAR */}
