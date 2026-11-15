@@ -17,7 +17,7 @@ const Gallery = () => {
 
       <div className="gallery-item">
         <img src="/images/gallery1.jpeg" alt="Fewture collection" />
-        <img src="/images/gallery2.jpeg" alt="Fewture collection" />
+        <img src="/images/mobile/hero6.jpeg" alt="Fewture collection" />
       </div>
 
     </section>

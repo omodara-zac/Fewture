@@ -4,8 +4,8 @@
     "id": 1,
     "name": "FEWTURE Beanie",
     "price": 15000,
-    "description": "A classic black and white beanie for everyday style.",
-    "category": "Beanie",
+    "description": "A timeless black and white beanie designed to bring effortless style to your everyday fits. Simple, versatile, and made for any season.",
+    "category": "Headwear",
     "cardImages": [
       "/images/collection/beanie2.jpeg",
       "/images/collection/beanie.jpeg"
@@ -19,8 +19,8 @@
     "id": 2,
     "name": "Zipper Hoodie",
     "price": 30000,
-    "description": "A heavyweight hoodie with a relaxed, comfortable fit.",
-    "category": "Hoodie",
+    "description": "Built for comfort with a heavyweight feel and relaxed silhouette. An everyday essential that brings effortless streetwear energy to any fit.",
+    "category": "Hoodies",
     "cardImages": [
       "/images/collection/hoodie.jpeg",
       "/images/collection/hoodie2.jpeg"
@@ -31,10 +31,40 @@
     ]
   },
   {
+    "id": 10,
+    "name": "Comrade Hoodie",
+    "price": 30000,
+    "description": "A heavyweight hoodie with a relaxed fit and understated design. Built for everyday comfort and effortless styling.",
+    "category": "Hoodies",
+    "cardImages": [
+      "/images/collection/plain.jpeg",
+      "/images/collection/plainback.jpeg"
+    ],
+    "images": [
+      "/images/collection/plain.jpeg",
+      "/images/collection/plainback.jpeg"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Comrade Hoodie",
+    "price": 30000,
+    "description": "A bold take on an everyday essential. Featuring distinctive colour options and a relaxed silhouette, this hoodie brings comfort and personality together.",
+    "category": "Hoodies",
+    "cardImages": [
+      "/images/collection/comrade black.jpeg",
+      "/images/collection/comrade pink.jpeg"
+    ],
+    "images": [
+      "/images/collection/comrade black.jpeg",
+      "/images/collection/comrade pink.jpeg"
+    ]
+  },
+  {
     "id": 3,
-    "name": "Healed Heart",
+    "name": "Healed Heart Tee",
     "price": 20000,
-    "description": "A statement graphic tee with a bold streetwear feel.",
+    "description": "More than just a graphic tee. Featuring a bold statement design, this piece brings personality and a distinctive edge to everyday streetwear.",
     "category": "T-Shirts",
     "cardImages": [
       "/images/collection/healed.jpeg",
@@ -50,8 +80,8 @@
     "id": 4,
     "name": "Nature Tee",
     "price": 20000,
-    "description": "A graphic tee inspired by nature and street culture.",
-    "category": "T-shirt",
+    "description": "Inspired by nature with a streetwear twist. A graphic essential that combines expressive design with an effortless everyday look.",
+    "category": "T-Shirts",
     "cardImages": [
       "/images/collection/skull2.jpeg",
       "/images/collection/skull.jpeg"
@@ -59,29 +89,14 @@
     "images": [
       "/images/collection/skull2.jpeg",
       "/images/collection/skull.jpeg"
-    ]
-  },
-  {
-    "id": 5,
-    "name": "Sultry Mini Skirt",
-    "price": 25000,
-    "description": "A sleek mini skirt made for effortless styling.",
-    "category": "Skirt",
-    "cardImages": [
-      "/images/collection/mini2.jpeg",
-      "/images/collection/mini.jpeg"
-    ],
-    "images": [
-      "/images/collection/mini2.jpeg",
-      "/images/collection/mini.jpeg"
     ]
   },
   {
     "id": 6,
     "name": "Female Ringer Tee",
     "price": 28000,
-    "description": "A fitted graphic tee with a classic ringer finish.",
-    "category": "Female T-shirt",
+    "description": "A fitted graphic tee with a classic contrast ringer finish. Designed to add a touch of character to a clean, casual streetwear look.",
+    "category": "T-Shirts",
     "cardImages": [
       "/images/collection/ringer2.jpeg",
       "/images/collection/ringer.jpeg"
@@ -95,7 +110,7 @@
     "id": 7,
     "name": "Patriot Tee",
     "price": 30000,
-    "description": "A bold graphic tee with a distinctive streetwear look.",
+    "description": "A statement graphic tee with a bold visual identity. Made for those who like their everyday style to stand out.",
     "category": "T-Shirts",
     "cardImages": [
       "/images/collection/camo prints.jpeg",
@@ -107,22 +122,79 @@
     ]
   },
   {
+    "id": 9,
+    "name": "FEWTURE Rage Tee",
+    "price": 20000,
+    "description": "An expressive graphic tee with an unapologetic streetwear attitude. A standout piece designed to bring bold energy to your everyday rotation.",
+    "category": "T-Shirts",
+    "cardImages": [
+      "/images/collection/rage.jpeg",
+      "/images/collection/rage2.jpeg"
+    ],
+    "images": [
+      "/images/collection/rage.jpeg",
+      "/images/collection/rage2.jpeg"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Sultry Mini Skirt",
+    "price": 25000,
+    "description": "A sleek mini skirt designed for confident, effortless styling. Easy to dress up or down, making it a versatile addition to any wardrobe.",
+    "category": "Bottoms",
+    "cardImages": [
+      "/images/collection/mini2.jpeg",
+      "/images/collection/mini.jpeg"
+    ],
+    "images": [
+      "/images/collection/mini2.jpeg",
+      "/images/collection/mini.jpeg"
+    ]
+  },
+  {
     "id": 8,
-    "name": "Ripped Sweatpant",
+    "name": "FEWTURE Sweatpant",
     "price": 28000,
-    "description": "Relaxed-fit sweatpants with edgy distressed detailing.",
-    "category": "Sweatpant",
+    "description": "Your everyday comfort, with a streetwear edge. Available in distressed and clean styles, these relaxed-fit sweatpants are made for laid-back looks without compromising on style.",
+    "category": "Bottoms",
     "cardImages": [
       "/images/collection/trouser.jpeg",
-      "/images/collection/trouser2.jpeg",
-      "/images/collection/trouser3.jpeg",
-      "/images/collection/trouser4.jpeg"
+      "/images/collection/sweatpant.jpeg"
     ],
     "images": [
       "/images/collection/trouser.jpeg",
       "/images/collection/trouser2.jpeg",
-      "/images/collection/trouser3.jpeg",
-      "/images/collection/trouser4.jpeg"
+      "/images/collection/sweatpant.jpeg",
+      "/images/collection/sweatpant2.jpeg",
+      "/images/collection/touser4.jpeg",
+      "/images/collection/trouser3.jpeg"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "FEWTURE Sweat Jort",
+    "price": 18000,
+    "description": "A relaxed-fit sweat jort designed for effortless streetwear styling. Comfortable, versatile, and easy to pair with your favourite tees and oversized tops.",
+    "category": "Bottoms",
+    "cardImages": [
+      "/images/collection/jort.jpeg",
+      "/images/collection/jort2.jpeg",
+      "/images/collection/jort3.jpeg",
+      "/images/collection/jort4.jpeg",
+      "/images/collection/jort5.jpeg",
+      "/images/collection/jort6.jpeg",
+      "/images/collection/jort7.jpeg",
+      "/images/collection/jort8.jpeg"
+    ],
+    "images": [
+      "/images/collection/jort.jpeg",
+      "/images/collection/jort2.jpeg",
+      "/images/collection/jort3.jpeg",
+      "/images/collection/jort4.jpeg",
+      "/images/collection/jort5.jpeg",
+      "/images/collection/jort6.jpeg",
+      "/images/collection/jort7.jpeg",
+      "/images/collection/jort8.jpeg"
     ]
   }
 ]

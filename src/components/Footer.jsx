@@ -13,7 +13,7 @@ const Footer = () => {
 
       <div className="footer-brand">
         <h2>FEWTURE</h2>
-        <p>Don't follow the future. Wear it.</p>
+        <p>RESERVED FOR THE FEW!</p>
       </div>
 
       <div className="footer-links">
@@ -68,7 +68,6 @@ const Footer = () => {
         <p>
           © {new Date().getFullYear()} FEWTURE. ALL RIGHTS RESERVED.
         </p>
-        <p>RESERVED FOR THE FEW!</p>
       </div>
 
     </footer>
