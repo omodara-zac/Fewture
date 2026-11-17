@@ -25,7 +25,7 @@ const Contact = () => {
 
         <div className="social-links">
           <a
-            href="https://www.instagram.com/YOUR_INSTAGRAM"
+            href="https://www.instagram.com/"
             target="_blank"
             rel="noreferrer"
             className="social-link"
@@ -47,7 +47,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://wa.me/07069451201"
+            href="https://wa.me/2347069451201"
             target="_blank"
             rel="noreferrer"
             className="social-link"
