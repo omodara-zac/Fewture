@@ -1,16 +1,30 @@
-# React + Vite
+# FEWTURE Fashion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern fashion e-commerce website built with React for FEWTURE Fashion, designed to give customers a stylish and convenient online shopping experience.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+FEWTURE Fashion is a fashion retail website developed to showcase the brand's products and collections while providing customers with an easy way to explore its offerings online.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Modern and responsive user interface
+- Product and fashion collection displays
+- Easy product browsing
+- Mobile-friendly design
+- Brand-focused visual experience
 
-## Expanding the ESLint configuration
+## Live Website
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+https://fewturefashion.store
+
+## Technologies Used
+
+- React
+- JavaScript
+- CSS
+- HTML
+
+## Project Purpose
+
+Developed as a client project to establish a professional online presence for FEWTURE Fashion and improve how customers discover its products online.
